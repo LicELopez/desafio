@@ -84,7 +84,7 @@ footer {
 
 
 #fondo-personalizado1 {
-    background-image: url('../gordis.png');
+    background-image: url('../media/gordis.png');
     background-size: cover; /* Ajusta la imagen al contenedor */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
