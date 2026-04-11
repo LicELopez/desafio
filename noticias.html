@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gordis y Altexis</title>
+     <title>Gordis y Altexis</title>
 
     <!--Codigo para llamar al archivo externo styles.css-->
 
@@ -19,7 +19,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 
-    <!--favicon-->
+<!--favicon-->
     <link rel="icon" type="image/x-icon" href="./media/logo.png">
 
 </head>
@@ -42,6 +42,7 @@
                 <div class="col-12 d-flex justify-content-center">
 
 
+                  
                     <img style="height:10vh" src="./media/logo.png" alt="logo">
 
                 </div>
@@ -60,8 +61,8 @@
                                     <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                                     <li class="nav-item"><a class="nav-link" href="musica.html">Música</a></li>
                                    
+                                   
                                     <li class="nav-item"><a class="nav-link" href="acercaNosotros.html">Integrantes</a>
-                                    </li>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" href="calendario.html">Calendario</a>
                                     </li>
@@ -90,37 +91,38 @@
     <section class="container-fluid   p-0">
 
         <!--hace que el row centre el contenido al centro-->
-        <div class="row ">
+        <div class="row justify-content-center">
 
 
             <!--Hace que la imagen se centre dentro del contenedor, col-2 hace que la columna se adapte seis espacios -->
 
-            <div id="fondo-personalizado1" class="col-12 col-md-6 container-fluid ">
+            <div id="principal" class="col-12 col-md-6 container" sytle="overflow: hidden">
 
 
 
-                <h2 style="color: white;">Gordis</h2>
-                <audio controls>
+                <img class="img-fluid w-100 h-100" style="object-fit: cover;"
+                    src="./media/boda.png" alt="doctor">
 
-                    <source src="./media/cancion2.mp3" type="audio/mpeg">
 
-                </audio>
 
             </div>
 
 
             <!--col-10 hace que la columna abarque seis espacios-->
-            <div id="fondo-personalizado2" class="col-12 col-md-6" sytle="overflow: hidden;">
+            <div id="secundario" class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+
+                <span>
+
+                    <h1> Noticias</h1>
 
 
 
-                <h2 style="color: white;">Altexis</h2>
+                     <p style="padding:10%"> Tenemos malas noticias para todas las solteras</br>Gordis se nos casó con un gringa y hay rumores que la banda podría desintegrarse.  </p>
 
-                <audio controls>
 
-                    <source src="./media/cancion1.mp3" type="audio/mpeg">
 
-                </audio>
+
+                    </sapn>
 
             </div>
 
@@ -133,7 +135,7 @@
 
 
         </div>
-
+        </div>
 
 
     </section>
@@ -149,16 +151,15 @@
                 <div class="col-12">
 
                     <span>
-                        <p id="footerText">Dirección: Texistepeque, Santa Ana, República de El Salvador Centro América
-                        <p>
+                        <p id="footerText">Dirección: Texistepeque, Santa Ana, República de El Salvador Centro América <p>
                         <p id="footerText">Telefono: (503) 777-7777
                             <br>
 
-                            <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img id="social1"
-                                    src=".media/facebook.png" alt="facebook"></a>
+                            <a href="https://www.facebook.com/?locale=es_LA" target="_blank"   ><img id="social1"
+                                    src="./media/facebook.png" alt="facebook"></a>
 
-                            <a href="https://www.instagram.com/" target="_blank"><img id="social2"
-                                    src=".media/instagram.png" alt="instagram"> </a>
+                            <a href="https://www.instagram.com/" target="_blank"  ><img id="social2"
+                                    src="./media/instagram.png" alt="instagram"> </a>
 
                         <p id="copyright">© 2035 by Gordis y Altexis</p>
                     </span>

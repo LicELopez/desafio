@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -42,6 +42,7 @@
                 <div class="col-12 d-flex justify-content-center">
 
 
+
                     <img style="height:10vh" src="./media/logo.png" alt="logo">
 
                 </div>
@@ -59,17 +60,16 @@
                                     <!--para quitar el bullet point-->
                                     <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                                     <li class="nav-item"><a class="nav-link" href="musica.html">Música</a></li>
-                                   
+
                                     <li class="nav-item"><a class="nav-link" href="acercaNosotros.html">Integrantes</a>
-                                    </li>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" href="calendario.html">Calendario</a>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a>
                                     </li>
+                                    </li>
                                     <li class="nav-item"><a class="nav-link" href="formulario.html">Formulario</a>
                                     </li>
-
                                 </ul>
                             </div>
                         </nav>
@@ -90,37 +90,82 @@
     <section class="container-fluid   p-0">
 
         <!--hace que el row centre el contenido al centro-->
-        <div class="row ">
+        <div class="row justify-content-center">
 
 
             <!--Hace que la imagen se centre dentro del contenedor, col-2 hace que la columna se adapte seis espacios -->
 
-            <div id="fondo-personalizado1" class="col-12 col-md-6 container-fluid ">
+            <div id="principal" class="col-12 col-md-6 container" sytle="overflow: hidden">
 
 
 
-                <h2 style="color: white;">Gordis</h2>
-                <audio controls>
+                <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="./media/logo.png" alt="doctor">
 
-                    <source src="./media/cancion2.mp3" type="audio/mpeg">
 
-                </audio>
 
             </div>
 
 
             <!--col-10 hace que la columna abarque seis espacios-->
-            <div id="fondo-personalizado2" class="col-12 col-md-6" sytle="overflow: hidden;">
+            <div id="secundario" class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+
+                <span>
+
+                    <h1> Formulario         </h1>
+
+ <form action="#" method="POST">
+                    <div class="form-group mb-3">
+                        <label class="small font-weight-bold mb-1">Nombres y Apellidos</label>
+                        <input type="text" class="form-control form-control-sm" placeholder="Ej. Gordis Altexis" required>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label class="small font-weight-bold mb-1">Correo Electrónico</label>
+                        <input type="email" class="form-control form-control-sm" placeholder="Ej. amo@gordisaltexis.com" required>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="small font-weight-bold mb-1">Teléfono de Contacto</label>
+                        <input type="tel" class="form-control form-control-sm" placeholder="7777-7777" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-dark btn-sm btn-block py-2" style="font-weight: bold; letter-spacing: 1px;">
+                        ENVIAR SOLICITUD
+                    </button>
+                </form>
 
 
 
-                <h2 style="color: white;">Altexis</h2>
 
-                <audio controls>
 
-                    <source src="./media/cancion1.mp3" type="audio/mpeg">
 
-                </audio>
+<!--Codigo comentado para revisar la form
+                    <form>
+                        <label for="nombres">Nombres</label>
+                        <input type="text" id="nombres" name="Nombres" placeholder="Gordis Altexis">
+
+                    </form>
+
+                    <form>
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" id="apellidos" name="Apellidos" placeholder="Perez García">
+                    </form>
+                    
+                    <form>
+                        <label for="e-mail">E-mail</label>
+                        <input type="text" id="e-mail" name="E-mail" placeholder="amo@gordis&altexis.com">
+
+
+                    </form>
+                    
+                    <form>
+                        <input type="submit" value="Submit">
+
+                    </form>
+
+-->
+
+                </span>
 
             </div>
 
@@ -133,7 +178,7 @@
 
 
         </div>
-
+        </div>
 
 
     </section>
@@ -155,10 +200,10 @@
                             <br>
 
                             <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img id="social1"
-                                    src=".media/facebook.png" alt="facebook"></a>
+                                    src="./media/facebook.png" alt="facebook"></a>
 
                             <a href="https://www.instagram.com/" target="_blank"><img id="social2"
-                                    src=".media/instagram.png" alt="instagram"> </a>
+                                    src="./media/instagram.png" alt="instagram"> </a>
 
                         <p id="copyright">© 2035 by Gordis y Altexis</p>
                     </span>
